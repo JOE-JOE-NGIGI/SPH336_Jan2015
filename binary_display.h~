@@ -9,14 +9,13 @@
 #define LED_BLINKER_H_
 
 void binary_display(char);
-
 void  binary_display(char byte1){
 	  int c;
 	  int LED[4];
 
 	  for (c = 0; c<4; c++)
 	  {
-	    LED[c]=((byte1>>c)& 0x01);
+	    LED[c]=((byte1>>c)&0x01);
 	 
 	  }
                 GPIOA->PDDR.bit_reg.bit11 = LED[0];//e1

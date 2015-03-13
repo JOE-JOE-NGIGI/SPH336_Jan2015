@@ -38,7 +38,7 @@ int main(void){
 		byte = uart_read();
 		//byte2=byte;
               if (byte>47 && byte<58 ){
-		binary_display(byte);		
+		binary_display(byte);		090
 		}
              else{ binary_display((char)0x00);}
 	}
