@@ -1,0 +1,15 @@
+#Configure UART1
+from components port I/O,select BitIO
+from cpu internal peripheral,under communication,select Asynchroserial
+from component inspector,set channel to UART1
+under settings on components inspector, select PTE for receiver RxD and select pin PTE1 in order to blink the orange LED
+select transmitter to enabled,select TxD select pin PTE0
+set baud rate to 57600 hz
+Insert the following code on ProcessorExpert.c file on the "write your code here section":
+        for(;;) {
+	    WAIT1_Waitms(100);//sets the frequency at which the LED blinks
+	    Bit1_NegVal();
+
+                }
+    
+
