@@ -1,17 +1,20 @@
 out/uart.o: uart.c uart.h MK60DZ10.h \
- /opt/gcc-arm-none-eabi-4_8-2014q2/lib/gcc/arm-none-eabi/4.8.4/include/stdint.h \
- /opt/gcc-arm-none-eabi-4_8-2014q2/arm-none-eabi/include/stdint.h \
- /opt/gcc-arm-none-eabi-4_8-2014q2/arm-none-eabi/include/machine/_default_types.h \
- /opt/gcc-arm-none-eabi-4_8-2014q2/arm-none-eabi/include/sys/features.h
+ /usr/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h \
+ /usr/arm-none-eabi/include/stdint.h \
+ /usr/arm-none-eabi/include/machine/_default_types.h \
+ /usr/arm-none-eabi/include/sys/features.h \
+ /usr/arm-none-eabi/include/sys/_intsup.h
 
 uart.h:
 
 MK60DZ10.h:
 
-/opt/gcc-arm-none-eabi-4_8-2014q2/lib/gcc/arm-none-eabi/4.8.4/include/stdint.h:
+/usr/lib/gcc/arm-none-eabi/4.9.3/include/stdint.h:
 
-/opt/gcc-arm-none-eabi-4_8-2014q2/arm-none-eabi/include/stdint.h:
+/usr/arm-none-eabi/include/stdint.h:
 
-/opt/gcc-arm-none-eabi-4_8-2014q2/arm-none-eabi/include/machine/_default_types.h:
+/usr/arm-none-eabi/include/machine/_default_types.h:
 
-/opt/gcc-arm-none-eabi-4_8-2014q2/arm-none-eabi/include/sys/features.h:
+/usr/arm-none-eabi/include/sys/features.h:
+
+/usr/arm-none-eabi/include/sys/_intsup.h:
